@@ -1,0 +1,45 @@
+#global{
+    background: #FFEEC3;
+}
+
+body{
+    background: url(/img/monalisa.jpg);     
+    background-attachment: fixed;
+}
+
+#logo{
+    background: #F1D68B;
+}
+
+#menu{
+    background-color: #F1D68B;
+}
+
+#menu ul li:hover{
+    background: #efca66;
+}
+
+.button-more{
+    background: #F1D68B;
+}
+
+#sidebar h4 span{
+    background: #F1D68B;
+    padding: 5px;
+}
+
+#sidebar h4{
+    background: url(/img/lines.png) repeat-x;
+}
+
+form input[type="submit"]{
+    background: #F1D68B;
+}
+
+form input[type="submit"]:hover{
+    background: #e7ba3c;
+}
+
+footer{
+    background: rgba(51, 51, 51, 0.70);
+}

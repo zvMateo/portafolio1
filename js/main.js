@@ -63,4 +63,22 @@ $(document).ready(function(){
     $("#to-blue").click(function (){
         theme.attr("href", "css/blue.css");
     });
+
+    // Scroll arriba de la web
+    $('.subir').click( function (e){
+        e.preventDefault();
+
+        $('html, body').animate({
+            scrollTop: 0
+        }, 800);
+
+        return false;
+    });
+
+    //Login falso
+    $("#login form").submit(function(){
+        var form_name = $("#form_name").val();
+
+        localStorage.setItem("")
+    });
 });
